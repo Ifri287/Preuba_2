@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PlayStation</title>
+    <title>Juegos de PlayStation</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -19,14 +19,14 @@
         .navbar a:hover {
             background-color: #001a40 !important;
         }
+        .card {
+            margin: 20px;
+        }
         footer {
             background-color: #003087;
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
@@ -42,7 +42,7 @@
                     <a class="nav-link" href="#home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="html/juegos.html">Juegos</a>
+                    <a class="nav-link" href="#games">Juegos</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#store">Tienda</a>
@@ -54,9 +54,35 @@
         </div>
     </nav>
     <div class="container mt-4">
-        <div class="jumbotron">
-            <h1 class="display-4">Bienvenido a PlayStation</h1>
-            <p class="lead">Explora el mundo de PlayStation y descubre nuevos juegos, accesorios y mucho más.</p>
+        <h1 class="text-center">Juegos de PlayStation</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Juego 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Juego 1</h5>
+                        <p class="card-text">Descripción breve del Juego 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Juego 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Juego 2</h5>
+                        <p class="card-text">Descripción breve del Juego 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Juego 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Juego 3</h5>
+                        <p class="card-text">Descripción breve del Juego 3.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer>
